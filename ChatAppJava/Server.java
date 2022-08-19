@@ -72,6 +72,7 @@ class Server {
         //this thread is used to take data from user and then send it to client
 
         Runnable r2 = ()->{
+            System.out.println("Writer started..");
             while(true){
                 try {
                     BufferedReader br1 = new BufferedReader(new InputStreamReader(System.in)); //using to  fetch the input from user
