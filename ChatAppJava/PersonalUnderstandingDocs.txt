@@ -1,0 +1,41 @@
+InputStreamReader:
+An InputStreamReader is a bridge from byte streams to character streams: 
+It reads bytes and decodes them into characters using a specified charset. 
+The charset that it uses may be specified by name or may be given explicitly, or 
+the platform's default charset may be accepted.
+
+
+
+Runnable:
+Java runnable is an interface used to execute code on a concurrent thread. 
+It is an interface which is implemented by any class if we want that the instances of that class should be executed by a thread.
+
+
+
+MultiThreading:
+Multithreading in Java is a process of executing multiple threads simultaneously.
+
+A thread is a lightweight sub-process, the smallest unit of processing. 
+Multiprocessing and multithreading, both are used to achieve multitasking.
+
+However, we use multithreading than multiprocessing because threads use a shared memory area. 
+They don't allocate separate memory area so saves memory, and context-switching between the threads takes less time than process.
+
+Java Multithreading is mostly used in games, animation, etc.
+refrence : https://www.javatpoint.com/multithreading-in-java
+
+
+
+lambda expression:
+
+Lambda Expressions were added in Java 8.
+
+A lambda expression is a short block of code which takes in parameters and returns a value. 
+Lambda expressions are similar to methods, but they do not need a name and they can be implemented right in the body of a method.
+(parameter1, parameter2) -> { code block }
+
+
+
+flush():
+The flush() method of PrintWriter Class in Java is used to flush the stream. By flushing the stream, 
+it means to clear the stream of any element that may be or maybe not inside the stream. It neither accepts any parameter nor returns any value.
